@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# 가상환경
+.venv/
+venv/
+env/
+.env
+
+# 환경 변수 (API 키 등)
+.env.local
+.env.*.local
+*.env
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 모델 가중치 (용량 큰 파일)
+*.safetensors
+*.pt
+*.bin
+*.ckpt
+*.pth
+optimizer.pt
+scaler.pt
+scheduler.pt
+rng_state.pth
+training_args.bin
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 로그
+*.log
+logs/
+
+# 캐시
+.cache/

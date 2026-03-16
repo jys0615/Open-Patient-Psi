@@ -1,0 +1,200 @@
+{"id": 1, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 2, "choice": "B", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 3, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 4, "choice": "Both responses A and B are appropriate as they express concerns related to mental health and stress. Neither response is more appropriate without additional context or a specific prompt to judge them against.", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 5, "choice": "A", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 6, "choice": "B", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 7, "choice": "A", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 8, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 9, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 10, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 11, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 12, "choice": "A", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 13, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 14, "choice": "A", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 15, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 16, "choice": "Neither response A nor response B can be deemed more appropriate without a specific prompt or context. Both responses are expressions of personal feelings and experiences, and appropriateness would depend on the context in which they are shared.", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 17, "choice": "A", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 18, "choice": "A", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 19, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 20, "choice": "B", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 21, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 22, "choice": "Neither response A nor response B can be judged as more appropriate without a given prompt or context. Both responses are expressions of personal feelings and experiences, and their appropriateness would depend on the specific situation or question they are addressing. Please provide a prompt or context for a proper evaluation.", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 23, "choice": "Both responses are appropriate.", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 24, "choice": "B", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 25, "choice": "B", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 26, "choice": "B", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 27, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 28, "choice": "A", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 29, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 30, "choice": "Both responses are appropriate as they express personal concerns and feelings that someone might discuss with a mental health evaluator. There is no context indicating that one response is more appropriate than the other. Therefore, I cannot choose between 'A' or 'B'. Both are valid expressions of individual struggles that could be appropriately addressed in a mental health evaluation setting.", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 31, "choice": "Neither response A nor response B is more appropriate without a given prompt or context. Both responses are valid expressions of personal experiences related to stress and social interactions at work. As an expert mental health evaluator, it would be important to address both scenarios with empathy and without judgment, focusing on the individual's feelings and experiences.", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 32, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 33, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 34, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 35, "choice": "B", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 36, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 37, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 38, "choice": "B", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 39, "choice": "B", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 40, "choice": "A", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 41, "choice": "B", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 42, "choice": "B", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 43, "choice": "Both responses are appropriate as they both express feelings of frustration and self-doubt related to work experiences. Neither response is more appropriate without additional context or criteria for judgment.", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 44, "choice": "Neither response A nor response B is more appropriate without a given prompt. Both responses are valid expressions of personal experiences and feelings. As an expert mental health evaluator, it would be important to address the concerns and feelings expressed in either response with empathy and without judgment. However, without a specific prompt or context, it is not possible to determine which response is more appropriate.", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 45, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 46, "choice": "A", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 47, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 48, "choice": "A", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 49, "choice": "A", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 50, "choice": "A", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 51, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 52, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 53, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 54, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 55, "choice": "B", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 56, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 57, "choice": "Both responses are appropriate.", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 58, "choice": "A", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 59, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 60, "choice": "Neither Response A nor Response B is more appropriate without a given prompt or context. Both responses are valid expressions of individual concerns and feelings that could be appropriately addressed in a mental health evaluation. However, without a specific prompt or context, it is not possible to judge one response as more appropriate than the other.", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 61, "choice": "A", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 62, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 63, "choice": "A", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 64, "choice": "B", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 65, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 66, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 67, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 68, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 69, "choice": "Both responses are appropriate as they express feelings of stress and self-doubt related to work situations. Neither response is more appropriate without additional context.", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 70, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 71, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 72, "choice": "B", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 73, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 74, "choice": "B", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 75, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 76, "choice": "Neither response A nor response B is more appropriate without a given prompt or context. Both responses are valid expressions of personal feelings and concerns that could be appropriately addressed in a mental health evaluation. Therefore, without a specific prompt or context, it is not possible to judge one response as more appropriate than the other.", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 77, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 78, "choice": "A", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 79, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 80, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 81, "choice": "Both responses are appropriate as they both express concerns related to self-esteem and stress, which are valid mental health issues. However, without a specific prompt or context, it is not possible to determine which response is more appropriate. Therefore, I cannot choose between 'A' or 'B'.", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 82, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 83, "choice": "B", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 84, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 85, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 86, "choice": "As an expert mental health evaluator, I cannot determine which response is more appropriate without a specific prompt or context. Both responses A and B express feelings of inadequacy and fear of judgment, which are valid concerns that could be explored in a therapeutic setting. Therefore, without additional context, neither response can be deemed more appropriate than the other. They both warrant empathetic listening and professional support.", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 87, "choice": "B", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 88, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 89, "choice": "B", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 90, "choice": "As an expert mental health evaluator, without a specific prompt or context, it is not possible to judge which response is more appropriate. Both responses A and B express concerns related to self-doubt and anxiety in a professional setting, which could be relevant to a variety of prompts. Please provide more context or specify the nature of the prompt for a more accurate evaluation.", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 91, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 92, "choice": "B", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 93, "choice": "B", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 94, "choice": "B", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 95, "choice": "B", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 96, "choice": "A", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 97, "choice": "Both responses are appropriate as they both express personal feelings and concerns that could be addressed in a mental health evaluation context. However, without a specific prompt, it is impossible to determine which response is more appropriate as they pertain to different scenarios. Therefore, I cannot choose between 'A' or 'B'.", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 98, "choice": "A", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 99, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 100, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 101, "choice": "Both responses are appropriate as they express concerns related to personal experiences and feelings of inadequacy. There is no context given that would make one response more appropriate than the other. Therefore, without additional context, I cannot judge one response to be more appropriate than the other.", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 102, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 103, "choice": "A", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 104, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 105, "choice": "B", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 106, "choice": "B", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 107, "choice": "B", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 108, "choice": "Both responses are appropriate as they both express feelings of anxiety and self-doubt related to work performance. Neither response is more appropriate than the other without additional context or specific criteria to judge appropriateness. Therefore, I cannot choose between 'A' or 'B' as both are valid expressions of someone's mental state in relation to workplace stress.", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 109, "choice": "B", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 110, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 111, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 112, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 113, "choice": "B", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 114, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 115, "choice": "A", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 116, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 117, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 118, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 119, "choice": "A", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 120, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 121, "choice": "Both responses are appropriate as they express concerns and feelings related to personal challenges. Neither response is more appropriate without additional context or specific criteria to judge them by.", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 122, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 123, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 124, "choice": "A", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 125, "choice": "Both responses are appropriate as they both express feelings of distress and a desire for support, which are valid concerns in a mental health context. However, without a specific prompt or context, it's not possible to determine which response is more appropriate. Both individuals should be provided with support and guidance to address their feelings and situations.", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 126, "choice": "Both responses are appropriate as they express personal feelings and experiences related to anxiety and self-doubt, which are valid concerns in a mental health context. There is no prompt provided to determine which response is more suitable, so both are equally valid without additional context.", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 127, "choice": "B", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 128, "choice": "Both responses are appropriate as they both express feelings of inadequacy and being undervalued in a social context. However, without a specific prompt or context for what \"appropriate\" means in this scenario, it's not possible to determine which response is more appropriate than the other. Both responses are valid expressions of the individuals' emotional states and experiences.", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 129, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 130, "choice": "A", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 131, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 132, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 133, "choice": "Both responses are appropriate as they both express feelings of inadequacy and self-doubt, which are valid emotional responses to the situations described. However, without a specific prompt or context for what \"appropriate\" means in this scenario, it's not possible to determine which response is more appropriate than the other. Both individuals would benefit from support and could be experiencing symptoms of depression or low self-esteem. As an expert mental health evaluator, it would be important to explore these feelings further with each individual.", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 134, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 135, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 136, "choice": "B", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 137, "choice": "B", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 138, "choice": "B", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 139, "choice": "B", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 140, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 141, "choice": "B", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 142, "choice": "A", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 143, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 144, "choice": "Both responses are appropriate as they express personal feelings and experiences related to stress and anxiety, which are valid concerns in a mental health evaluation context. However, without a specific prompt, it is not possible to determine which response is more appropriate as they pertain to different scenarios. Therefore, both 'A' and 'B' are equally appropriate given the lack of context.", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 145, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 146, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 147, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 148, "choice": "A", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 149, "choice": "B", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 150, "choice": "A", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 151, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 152, "choice": "A", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 153, "choice": "B", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 154, "choice": "B", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 155, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 156, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 157, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 158, "choice": "A", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 159, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 160, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 161, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 162, "choice": "Both responses are appropriate.", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 163, "choice": "B", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 164, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 165, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 166, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 167, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 168, "choice": "A", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 169, "choice": "A", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 170, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 171, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 172, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 173, "choice": "Both responses are appropriate as they express feelings of distress and concern that are relevant for a mental health evaluation. However, without a specific prompt or context, it is not possible to determine which response is more appropriate. Both responses provide insight into the individual's emotional state and could be equally valuable in a mental health assessment. Therefore, I cannot choose between 'A' or 'B' without further context.", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 174, "choice": "A", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 175, "choice": "A", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 176, "choice": "Both responses are appropriate as they express personal feelings and experiences without any context given in the prompt. Neither response is more appropriate than the other without additional context or criteria for judgment.", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 177, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 178, "choice": "A", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 179, "choice": "Both responses are appropriate.", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 180, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 181, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 182, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 183, "choice": "Both responses are appropriate as they express personal feelings and concerns that someone might bring to a mental health evaluator. Neither response is more appropriate than the other without additional context or specific criteria to judge them by.", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 184, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 185, "choice": "B", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 186, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 187, "choice": "Neither response A nor response B can be deemed more appropriate without a specific prompt or context for evaluation. Both responses are expressions of personal experiences and feelings, and without knowing the context or the purpose of the evaluation, it is not possible to judge one as more appropriate than the other.", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 188, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 189, "choice": "B", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 190, "choice": "Neither Response A nor Response B is more appropriate without a given prompt. Both responses are expressions of personal struggles and would be appropriate in a context where someone is seeking support or advice for their emotional or financial difficulties. Without a specific prompt, it is not possible to judge which response is more appropriate.", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 191, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 192, "choice": "Both responses are appropriate.", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 193, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 194, "choice": "A", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 195, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 196, "choice": "A", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 197, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 198, "choice": "B", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
+{"id": 199, "choice": "B", "gt_model_a": "GPT-4.1-nano", "gt_model_b": "OpenPatientΨ-0.5B"}
+{"id": 200, "choice": "Both responses are appropriate as they both express feelings of frustration and self-doubt, which are valid emotions that can be explored in a mental health evaluation. However, without a specific prompt or context, it is not possible to determine which response is more appropriate. Both responses could be relevant depending on the individual's situation and the focus of the evaluation.", "gt_model_a": "OpenPatientΨ-0.5B", "gt_model_b": "GPT-4.1-nano"}
