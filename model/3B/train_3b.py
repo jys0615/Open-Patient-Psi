@@ -7,12 +7,15 @@ from transformers import (
     TrainingArguments,
     Trainer,
     DataCollatorForLanguageModeling,
-    BitsAndBytesConfig
+    BitsAndBytesConfig,
+    set_seed
 )
 from pathlib import Path
 # QLoRA-specific setup
 from peft import LoraConfig, get_peft_model, prepare_model_for_kbit_training
 from itertools import product
+
+set_seed(42)
 
 # Load dataset from JSONL (full set, no split)
 dataset = load_dataset("json", data_files="/data/yoonsuh0615/repos/patientv3/data/patient_psi_chatml.jsonl", split="train")
@@ -70,31 +73,38 @@ bnb_config = BitsAndBytesConfig(
     bnb_4bit_use_double_quant=True
 )
 
-base_model = AutoModelForCausalLM.from_pretrained(
-    model_name,
-    quantization_config=bnb_config,
-    device_map="auto",
-    trust_remote_code=True
-)
-
-# Prepare model for LoRA training
-base_model.gradient_checkpointing_enable()
-base_model = prepare_model_for_kbit_training(base_model)
-
+# LoRA config: Qwen2 구조는 q_proj/k_proj/v_proj/o_proj(attn) +
+# gate_proj/up_proj/down_proj(MLP)이며 c_attn(GPT-2 계열)은 존재하지 않는다.
+# 기존 코드의 "c_attn"은 매칭되는 레이어가 없어 무시되고, k_proj/o_proj/MLP에는
+# LoRA가 전혀 적용되지 않은 채 학습되고 있었다.
 lora_config = LoraConfig(
     r=64,
     lora_alpha=16,
-    target_modules=["c_attn", "q_proj", "v_proj"],  # Qwen 구조에 맞게 설정
+    target_modules=["q_proj", "k_proj", "v_proj", "o_proj",
+                     "gate_proj", "up_proj", "down_proj"],
     lora_dropout=0.05,
     bias="none",
     task_type="CAUSAL_LM"
 )
 
-model = get_peft_model(base_model, lora_config)
-
 for ep, lr in product([8, 10], [1e-4, 2e-4, 3e-4, 4e-4, 5e-4]):
+    set_seed(42)  # 조합마다 동일한 초기화 지점에서 시작하도록 고정
     run_id = f"3B_EP{ep}_LR{lr:.0e}".replace("e-0", "e-").replace("e+0", "e+")
     run_output_dir = Path(__file__).parent / "model" / run_id
+
+    # 각 (epoch, lr) 조합마다 base model을 새로 로드하고 LoRA 어댑터를 새로
+    # 초기화한다. 기존 코드는 model을 for문 밖에서 한 번만 만들어서, 두 번째
+    # 조합부터는 이전 조합 학습 결과 위에 이어서 학습하는 버그가 있었다
+    # (25개 하이퍼파라미터 조합이 서로 독립적이지 않았음).
+    run_base_model = AutoModelForCausalLM.from_pretrained(
+        model_name,
+        quantization_config=bnb_config,
+        device_map="auto",
+        trust_remote_code=True
+    )
+    run_base_model.gradient_checkpointing_enable()
+    run_base_model = prepare_model_for_kbit_training(run_base_model)
+    model = get_peft_model(run_base_model, lora_config)
 
     training_args = TrainingArguments(
         output_dir=run_output_dir,

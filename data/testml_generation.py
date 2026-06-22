@@ -1,11 +1,19 @@
 import openai
 import json
+import sys
 import time
 from typing import Optional
 
 # 입력 및 출력 경로
-INPUT_PATH = "data/patient_psi_testset.json"
-OUTPUT_PATH = "data/patient_psi_testml.jsonl"
+# 사용법: python data/testml_generation.py        -> testset 변환 (기본값)
+#         python data/testml_generation.py valid  -> validset 변환
+SPLIT = sys.argv[1] if len(sys.argv) > 1 else "test"
+if SPLIT == "valid":
+    INPUT_PATH = "data/patient_psi_validset.json"
+    OUTPUT_PATH = "data/patient_psi_validml.jsonl"
+else:
+    INPUT_PATH = "data/patient_psi_testset.json"
+    OUTPUT_PATH = "data/patient_psi_testml.jsonl"
 MAX_COUNT = 1000  # e.g., set to 100 to only process first 100 samples
 
 # 리스트 또는 문자열을 안전하게 문자열로 변환
@@ -110,6 +118,11 @@ def main():
             remaining = avg_time * (total - idx - 1)
             print(f"🧠 {idx + 1}/{total} 테스트셋 변환 중... ⏱️ 약 {remaining:.1f}초 남음")
             prompt_sample = convert_to_chatml(sample)
+            # Auto-generate assistant reply if missing or empty (train과 동일하게)
+            if not sample.get("response", "").strip():
+                prompt = prompt_sample["messages"][0]["content"]
+                sample["response"] = generate_assistant_response(prompt)
+                prompt_sample = convert_to_chatml(sample)
             out_f.write(json.dumps(prompt_sample, ensure_ascii=False) + "\n")
 
     print(f"✅ 테스트셋 ChatML 변환 완료: {OUTPUT_PATH}")

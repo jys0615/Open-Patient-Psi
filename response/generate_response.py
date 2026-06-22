@@ -45,7 +45,8 @@ for epoch in EPOCHS:
             for i, sample in enumerate(lines):
                 if i >= max_responses:
                     break
-                messages = sample["messages"]
+                # testml.jsonl의 assistant 턴은 정답 슬롯이라 생성 프롬프트에 포함하면 안 됨
+                messages = [m for m in sample["messages"] if m["role"] != "assistant"]
                 prompt = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
                 inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
 

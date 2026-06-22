@@ -21,7 +21,10 @@ with open(output_path, "w") as out_f:
     for i, sample in enumerate(lines):
         if i >= max_responses:
             break
-        messages = sample["messages"]
+        # testml.jsonl의 messages는 [user, assistant] 쌍인데 assistant는
+        # 데이터셋의 정답 응답 슬롯이라 API에 그대로 보내면 안 됨(빈 assistant
+        # turn으로 끝나는 비정상 대화가 됨). user 턴만 넘겨서 생성을 요청한다.
+        messages = [m for m in sample["messages"] if m["role"] != "assistant"]
 
         decoded = ""
         try:
