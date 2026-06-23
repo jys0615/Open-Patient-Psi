@@ -241,14 +241,21 @@ def to_chatml(history):
 # ===== 3) Stratified sampling =====
 
 def stratified_combos(n):
-    """situation x style x fine-grained belief 조합을 최대한 고르게 분산해서 n개 뽑는다."""
-    combos = []
+    """situation x style x fine-grained belief 조합을 최대한 고르게 분산해서 n개 뽑는다.
+    n이 고유 조합 수보다 크면, 매 cycle마다 다시 셔플해서 순환시킨다
+    (단순 슬라이싱은 n>고유 조합 수일 때 부족한 개수만 반환하는 버그가 있었음)."""
+    base_combos = []
     for situation in SITUATION_CATEGORIES:
         for style in VALID_STYLES_BY_CATEGORY[situation]:
             for major, fine in ALL_FINE_GRAINED:
-                combos.append((situation, style, major, fine))
-    random.shuffle(combos)
-    return combos[:n]
+                base_combos.append((situation, style, major, fine))
+
+    result = []
+    while len(result) < n:
+        cycle = base_combos.copy()
+        random.shuffle(cycle)
+        result.extend(cycle)
+    return result[:n]
 
 
 def main():
@@ -257,6 +264,7 @@ def main():
     parser.add_argument("--turns", type=int, default=6, help="대화당 턴 수 (치료사+환자 1세트=1턴)")
     parser.add_argument("--out", type=str, default="data/patient_psi_multiturn_pilot.jsonl")
     parser.add_argument("--seed", type=int, default=42)
+    parser.add_argument("--id_offset", type=int, default=0, help="train/valid/test 합칠 때 id 충돌 방지용 오프셋")
     args = parser.parse_args()
 
     random.seed(args.seed)
@@ -270,7 +278,7 @@ def main():
         history, rejections = simulate_dialogue(ccd, args.turns)
 
         sample = {
-            "id": idx,
+            "id": idx + args.id_offset,
             "situation_category": situation,
             "style": style,
             "core_belief_major": major,
